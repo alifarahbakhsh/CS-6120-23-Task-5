@@ -12,6 +12,7 @@ I therefore stopped at manual inspection.
 Currently, there are two active `print` statements in the python file, which correspond to the outputs of the two tests.
 Both of these should print `True`.
 I have included the script `experiment.sh`, which goes through the programs in the `core` folder in the canonical Bril benchmarks, feeds them to the
-python fle, and prints the outputs in the file `res.txt`.
+python file, and prints the outputs in the file `res.txt`.
+To be able to run the script, you should change the test programs directory specified within.
 One can then inspect this file to see if there exist some `False` outcomes.
 You can uncomment various `print` statements to see different outputs, e.g., dominators and dominance frontier.
